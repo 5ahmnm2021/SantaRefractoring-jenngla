@@ -5,7 +5,9 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
     [SerializeField] float jumpForce;
-    
+
+    bool grounded;
+    bool gameOver = false;
 
     private void Awake()
     {
@@ -28,8 +30,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    bool grounded;
-    bool gameOver = false;
 
     void jump()
     {
