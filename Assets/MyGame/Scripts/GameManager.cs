@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public GameObject gameOverPanel;
     public Text scoreText;
+    int score = 0;
 
     private void Awake()
     {
@@ -48,7 +49,6 @@ public class GameManager : MonoBehaviour
 
     public void IncrementScore()
     {
-        int score = 0;
         score++;
         scoreText.text = score.ToString();
     }
