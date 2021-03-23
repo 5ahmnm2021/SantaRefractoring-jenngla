@@ -23,10 +23,6 @@ public class PlayerController : MonoBehaviour
             {
                 jump();
             }
-
-
-
-
         }
     }
 
