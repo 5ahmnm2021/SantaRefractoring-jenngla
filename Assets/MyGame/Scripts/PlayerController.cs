@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     void jump()
     {
         grounded = false;
@@ -58,8 +57,4 @@ public class PlayerController : MonoBehaviour
             gameOver = SetGameOverTrue();
         }
     }
-
-
-
-
 }
